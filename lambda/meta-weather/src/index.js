@@ -19,5 +19,6 @@ exports.handler = async (event, context) => {
     return response;
   } catch (err) {
     logger.error(err);
+    return null;
   }
 };
