@@ -3,7 +3,7 @@ const logger = require('./utils/logger');
 
 const options = {
   method: 'GET',
-  uri: 'https://www.metaweather.com/api/location/2378426/',
+  uri: '',
   headers: {
     'content-type': 'application/json',
   },
@@ -12,6 +12,7 @@ const options = {
 
 exports.handler = async (event, context) => {
   logger.info(`EVENT : ${JSON.stringify(event)}`);
+  logger.info(`CONTEXT : ${JSON.stringify(context)}`);
 
   try {
     const response = await rp(options);

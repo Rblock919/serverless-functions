@@ -1,7 +1,7 @@
 {
   "name": "weather",
   "version": "1.0.0",
-  "description": "A simple serverless function that makes a weather api call and returns the results",
+  "description": "A simple lambda function boiler plate",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint '**/*.js'",
@@ -11,7 +11,7 @@
     "build": "rm -rf node_modules/ && npm i --production && zip -r function.zip *",
     "start": "NODE_ENV=production node src/index.js"
   },
-  "keywords": ["lambda", "serverless", "weather"],
+  "keywords": ["lambda", "serverless", "boiler-plate"],
   "author": "Ryan Block",
   "license": "ISC",
   "devDependencies": {
