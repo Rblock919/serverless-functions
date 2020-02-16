@@ -1,0 +1,153 @@
+{
+  "consolidated_weather": [
+    {
+      "id": 5048064299499520,
+      "weather_state_name": "Light Cloud",
+      "weather_state_abbr": "lc",
+      "wind_direction_compass": "ESE",
+      "created": "2020-02-15T21:47:19.347730Z",
+      "applicable_date": "2020-02-15",
+      "min_temp": 0.2799999999999998,
+      "max_temp": 9.055,
+      "the_temp": 11.155000000000001,
+      "wind_speed": 5.077839052403299,
+      "wind_direction": 101.80158109456688,
+      "air_pressure": 1030.5,
+      "humidity": 51,
+      "visibility": 14.143651077706195,
+      "predictability": 70
+    },
+    {
+      "id": 5368310843572224,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "S",
+      "created": "2020-02-15T21:47:22.755763Z",
+      "applicable_date": "2020-02-16",
+      "min_temp": 1.375,
+      "max_temp": 10.95,
+      "the_temp": 11.96,
+      "wind_speed": 2.8325150666056893,
+      "wind_direction": 183.4659690035945,
+      "air_pressure": 1023,
+      "humidity": 72,
+      "visibility": 8.857335659747077,
+      "predictability": 71
+    },
+    {
+      "id": 6173964206342144,
+      "weather_state_name": "Heavy Cloud",
+      "weather_state_abbr": "hc",
+      "wind_direction_compass": "ESE",
+      "created": "2020-02-15T21:47:25.189687Z",
+      "applicable_date": "2020-02-17",
+      "min_temp": 4.86,
+      "max_temp": 15.954999999999998,
+      "the_temp": 17.04,
+      "wind_speed": 2.97143732190408,
+      "wind_direction": 120.91523905701395,
+      "air_pressure": 1021,
+      "humidity": 73,
+      "visibility": 11.255207090590948,
+      "predictability": 71
+    },
+    {
+      "id": 5184968621817856,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "S",
+      "created": "2020-02-15T21:47:28.187723Z",
+      "applicable_date": "2020-02-18",
+      "min_temp": 10.065,
+      "max_temp": 17.395,
+      "the_temp": 17.85,
+      "wind_speed": 4.9507097658050325,
+      "wind_direction": 170.90581523164226,
+      "air_pressure": 1020,
+      "humidity": 92,
+      "visibility": 7.361073828839578,
+      "predictability": 77
+    },
+    {
+      "id": 6738326289645568,
+      "weather_state_name": "Heavy Rain",
+      "weather_state_abbr": "hr",
+      "wind_direction_compass": "NNE",
+      "created": "2020-02-15T21:47:31.373697Z",
+      "applicable_date": "2020-02-19",
+      "min_temp": 5.3100000000000005,
+      "max_temp": 13.635,
+      "the_temp": 15.795,
+      "wind_speed": 6.65962069655081,
+      "wind_direction": 18.183388302955947,
+      "air_pressure": 1023,
+      "humidity": 76,
+      "visibility": 9.307829774119144,
+      "predictability": 77
+    },
+    {
+      "id": 4826799395569664,
+      "weather_state_name": "Light Rain",
+      "weather_state_abbr": "lr",
+      "wind_direction_compass": "NNE",
+      "created": "2020-02-15T21:47:34.246125Z",
+      "applicable_date": "2020-02-20",
+      "min_temp": 1.05,
+      "max_temp": 8.375,
+      "the_temp": 7.56,
+      "wind_speed": 5.024437882764654,
+      "wind_direction": 24,
+      "air_pressure": 1030,
+      "humidity": 55,
+      "visibility": 9.999726596675416,
+      "predictability": 75
+    }
+  ],
+  "time": "2020-02-15T17:10:31.900478-05:00",
+  "sun_rise": "2020-02-15T07:10:03.286756-05:00",
+  "sun_set": "2020-02-15T18:05:21.616333-05:00",
+  "timezone_name": "LMT",
+  "parent": {
+    "title": "North Carolina",
+    "location_type": "Region / State / Province",
+    "woeid": 2347592,
+    "latt_long": "35.21962,-80.019547"
+  },
+  "sources": [
+    {
+      "title": "BBC",
+      "slug": "bbc",
+      "url": "http://www.bbc.co.uk/weather/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "Forecast.io",
+      "slug": "forecast-io",
+      "url": "http://forecast.io/",
+      "crawl_rate": 480
+    },
+    {
+      "title": "Met Office",
+      "slug": "met-office",
+      "url": "http://www.metoffice.gov.uk/",
+      "crawl_rate": 180
+    },
+    {
+      "title": "OpenWeatherMap",
+      "slug": "openweathermap",
+      "url": "http://openweathermap.org/",
+      "crawl_rate": 360
+    },
+    {
+      "title": "World Weather Online",
+      "slug": "world-weather-online",
+      "url": "http://www.worldweatheronline.com/",
+      "crawl_rate": 360
+    }
+  ],
+  "title": "Charlotte",
+  "location_type": "City",
+  "woeid": 2378426,
+  "latt_long": "35.222500,-80.837540",
+  "timezone": "America/New_York"
+}
