@@ -11,6 +11,10 @@ const options = {
 };
 
 module.exports = async (context, callback) => {
-  const weather = await rp(options);
-  return { weather };
+  try {
+    const weather = await rp(options);
+    return { weather };
+  } catch (error) {
+    callback(error, null);
+  }
 };
