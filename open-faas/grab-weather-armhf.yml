@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.1.11:31112
+functions:
+  grab-weather-armhf:
+    lang: node12-armhf
+    handler: ./grab-weather-armhf
+    image: rblock93/grab-weather-armhf:latest
+
