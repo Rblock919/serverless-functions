@@ -1,0 +1,3 @@
+./open-faas/template
+./open-faas/build
+./open-faas/**/node_modules/**
