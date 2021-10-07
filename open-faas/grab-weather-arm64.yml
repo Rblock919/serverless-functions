@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.1.13:31112
+functions:
+  grab-weather-arm64:
+    lang: node12-arm64
+    handler: ./grab-weather-arm64
+    image: rblock93/grab-weather-arm64:latest
+
